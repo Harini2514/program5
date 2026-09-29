@@ -1,12 +1,7 @@
-use merlin063;
-USE CollegeDB;
+INSERT INTO Student (StudentID, StudentName, Gender, DepartmentID)
+VALUES
+(1001, 'Arun', 'Male', 101),
+(1002, 'Divya', 'Female', 102),
+(1003, 'Karthik', 'Male', 101);
 
-INSERT INTO Student VALUES (...);
-INSERT INTO Student VALUES (...);
-INSERT INTO Student VALUES (...);
-INSERT INTO Student VALUES
-(1, 'Arun', 'CSE', 20),
-(2, 'Divya', 'ECE', 20),
-(3, 'Karthik', 'IT', 21);
-
-
+SELECT * FROM Student;
